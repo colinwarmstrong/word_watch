@@ -17,8 +17,7 @@ const getFavoriteWord = () => {
 const appendFavoriteWord = (favoriteWord) => {
   let word = Object.keys(favoriteWord['word']).pop();
   let quantity = favoriteWord['word'][word];
-  $('.word-count').append(`
-    <p>${word}: ${quantity}</p>`)
+  $('.word-count').append(`<p>${word}: ${quantity}</p>`)
 }
 
 const addWords = () => {
@@ -44,10 +43,12 @@ const addWord = (word) => {
 
 const wordLoop = (word) => {
   let i = 0;
-  while (i < 400) {
+  while (i < 200) {
     addWord(word);
     i++;
   }
 }
+
+wordLoop('shaun')
 
 $('#break-down-button').click(addWords);

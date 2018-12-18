@@ -10,27 +10,28 @@
     "start": "webpack-dev-server --hot --inline"
   },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-register": "^6.24.1",
-    "chai": "^4.0.2",
-    "css-loader": "^0.28.4",
-    "jquery": "^3.2.1",
-    "jsdom": "^11.1.0",
-    "mocha": "^3.4.2",
-    "mocha-webpack": "^0.7.0",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6",
-    "sinon": "^3.0.0",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.5.4",
-    "webpack-dev-server": "^2.7.1",
-    "webpack-node-externals": "^1.6.0"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "css-loader": "^2.0.1",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.1.0",
+    "mocha": "^5.2.0",
+    "mocha-webpack": "^1.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "sinon": "^7.2.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.18.0",
+    "npm-check-updates": "^2.15.0"
   },
   "author": "",
   "license": "ISC"
